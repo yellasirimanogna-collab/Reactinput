@@ -1,9 +1,12 @@
 {
+  "homepage":"https://github.com/yellasirimanogna-collab/Reactinput/tree/d28426335997872c6075330cf3adada851f31546/manumeghu",
   "name": "manumeghu",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
